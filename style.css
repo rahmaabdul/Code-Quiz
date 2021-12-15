@@ -1,76 +1,66 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    background-color: blueviolet;
-   font-family: sans-serif;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   height: 100vh;
-   overflow: hidden;
-   margin: 0;
+body {
+  background-color: blueviolet;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
 }
 
-.quiz-container{
-    background-color: cornsilk;
-    border-radius: 10px;
-    width: 600px;
-    overflow:hidden;
- }
-
- .quiz-header{
-     padding: 4rem;
- }
- h2{
-     padding: 1rem;
-     text-align: center;
-     margin: 0;
-
- }
-
- ul{
-     list-style-type: none;
-     padding: 0;
- }
- ul li{
-     font-size: 1.3rem;
-     margin: 1rem 0;
- }
-
- ul li label{
-     cursor: pointer;
- }
-
- button{
-     background-color: darkmagenta;
-     color: cornsilk;
-     border: none;
-     display: block;
-     width: 100%;
-     cursor: pointer;
-     font-size: 1.2rem;
-     font-family: inherit;
-     padding: 1.4rem;
- }
-
-button:hover{
-    background-color:lightskyblue;
-
+.quiz-container {
+  background-color: cornsilk;
+  border-radius: 10px;
+  width: 600px;
+  overflow: hidden;
 }
-button:focus{
-    outline: none;
-    background-color: lime;
-}     
 
+.quiz-header {
+  padding: 4rem;
+}
+h2 {
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
 
+ul li label {
+  cursor: pointer;
+}
 
+button {
+  background-color: darkmagenta;
+  color: cornsilk;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-family: inherit;
+  padding: 1.4rem;
+}
 
-
-
-
+button:hover {
+  background-color: lightskyblue;
+}
+button:focus {
+  outline: none;
+  background-color: lime;
+}
 
 /* *,
 *::before,
@@ -95,7 +85,7 @@ body {
   height: 100vw;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   /* background-color: rgb(145, 118, 170)18, 170); */
-  /* 
+/* 
   
  */
 
@@ -110,4 +100,4 @@ body {
   text-align: center;
   background-color: #ffffff; 
   padding: 5px;
-} */ */
+} */

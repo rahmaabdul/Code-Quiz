@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="/script.js"></script>
+    <script src="/questions.js"></script>
+    <title>JavaScript Quiz</title>
+  </head>
+  <nav class="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="highscores.html">View High Scores</a>
+    </div>
+  </nav>
+  <body>
+    <header class="header">
+      <section id="highscore">
+        Play and beat your last game to set a new high score!
+      </section>
+      <section id="currentscore">press start to begin(currentscore)</section>
+      <section id="timer">press start to begin (timer)</section>
+    </header>
+
+    <main id="main">
+      <section id="quiz-box">
+        <div id="container-start">
+          <h1 id="question">Questions</h1>
+          <div id="answers" class="btn-grid">
+            <button type="button" class="btn btn-dark" id="choiceA">A</button>
+            <button type="button" class="btn btn-dark" id="choiceB">B</button>
+            <button type="button" class="btn btn-dark" id="choiceC">C</button>
+            <button type="button" class="btn btn-dark" id="choiceD">D</button>
+          </div>
+          <button class="start-btn shadow" id="start">START</button>
+          <button class="next btn" id="next-btn">NEXT</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

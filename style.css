@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --hue-neutral: 200;
+  --hue-wrong: 0;
+  --hue-correct: 145;
+}
+
+body {
+  --hue: var(--hue-neutral);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content:left
+  align-items: center;
+  background-color: hsl(var(--hue), 100%, 20%);
+  width: 100vw;
+  height: 100vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* background-color: rgb(145, 118, 170)18, 170); */
+  color: cornsilk;
+}
+
+header {
+    grid-row: span;
+    justify-items: right;
+
+}
+
+
+main{
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    
+}
+
+body.correct {
+  --hue: var(--hue-correct);
+}
+
+body.wrong {
+  --hue: var(--hue-wrong);
+}
+
+.container-fluid {
+  background-color: darkgray;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+#choiceA, #choiceB, #choiceC, #choiceD {
+    justify-content: center;
+    flex: 10vmax;
+    color: black;
+    background-color: #0cbdf3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 200px;
+    width: 200px;
+
+/* header {
+  width: 80px;
+  display: grid;
+  grid-template-columns: 40% 40% 40%;
+  justify-content: center;
+  margin-bottom: 10rem;
+  width: 800px;
+  max-width: 75%;
+  text-align: center;
+  background-color: #ffffff; 
+  padding: 5px;
+} */
